@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(167, 208, 243);
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(196, 250, 198);
+  border-radius: 3rem;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+select, input{
+  margin: 1rem;;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.todo {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.complete-btn, .trash-btn {
+  margin-left: 20px;
+}
+
+.todo-list {
+  background-color: rgb(255, 240, 254);
+  border-radius: 2rem;
+  padding: 2rem;
+}
